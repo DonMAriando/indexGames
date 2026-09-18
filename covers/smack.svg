@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" role="img" aria-label="SMACK!">
+  <rect width="840" height="525" fill="#101114"/>
+  <circle cx="420" cy="236" r="148" fill="none" stroke="#ffd54a" stroke-width="18"/>
+  <circle cx="420" cy="236" r="128" fill="#f3c7a4"/>
+  <path d="M318 176 Q420 118 522 176 Q500 250 420 236 Q340 250 318 176Z" fill="#6b4428"/>
+  <ellipse cx="372" cy="228" rx="22" ry="26" fill="#1a1a1a"/>
+  <ellipse cx="468" cy="228" rx="22" ry="26" fill="#1a1a1a"/>
+  <ellipse cx="366" cy="220" rx="7" ry="8" fill="#fff"/>
+  <ellipse cx="462" cy="220" rx="7" ry="8" fill="#fff"/>
+  <rect x="388" y="278" width="64" height="10" rx="5" fill="#1a1a1a"/>
+  <rect x="348" y="196" width="44" height="10" rx="4" fill="#3b2a1c"/>
+  <rect x="448" y="196" width="44" height="10" rx="4" fill="#3b2a1c"/>
+  <text x="420" y="448" text-anchor="middle" fill="#ffd54a" font-family="Arial Black, Arial, sans-serif" font-size="42" letter-spacing="6">SMACK!</text>
+</svg>

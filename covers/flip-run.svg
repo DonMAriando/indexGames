@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" role="img" aria-label="FLIP RUN">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1224"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9be7ff"/>
+      <stop offset="100%" stop-color="#3ec6ff"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8ff6a"/>
+      <stop offset="100%" stop-color="#b6ff3c"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="840" height="525" fill="url(#night)"/>
+  <g transform="translate(420 250)" filter="url(#glow)">
+    <rect x="-118" y="-110" width="64" height="220" rx="18" transform="skewX(-18)" fill="url(#cyan)"/>
+    <rect x="18" y="-110" width="64" height="220" rx="18" transform="skewX(-18)" fill="url(#lime)"/>
+  </g>
+  <text x="420" y="430" text-anchor="middle" fill="#e8f4ff" font-family="Arial Black, Arial, sans-serif" font-size="36" letter-spacing="4">FLIP//RUN</text>
+  <text x="420" y="458" text-anchor="middle" fill="#7fd0ff" font-family="Arial, sans-serif" font-size="13" letter-spacing="6">ONE TOUCH / ZERO BRAKES</text>
+</svg>

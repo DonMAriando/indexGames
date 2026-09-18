@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" role="img" aria-label="No Ground Below">
+  <defs>
+    <linearGradient id="void" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141820"/>
+      <stop offset="55%" stop-color="#07090d"/>
+      <stop offset="100%" stop-color="#020305"/>
+    </linearGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c5ccd3"/>
+      <stop offset="40%" stop-color="#8b9298"/>
+      <stop offset="100%" stop-color="#3d444c"/>
+    </linearGradient>
+    <radialGradient id="mouth" cx="50%" cy="38%" r="42%">
+      <stop offset="0%" stop-color="#1a222c"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(180,198,214,0)"/>
+      <stop offset="100%" stop-color="rgba(180,198,214,.18)"/>
+    </linearGradient>
+  </defs>
+  <rect width="840" height="525" fill="url(#void)"/>
+  <ellipse cx="420" cy="520" rx="320" ry="90" fill="url(#mist)"/>
+  <g transform="translate(420 268)" fill="none" stroke="#5d656e" stroke-width="3" opacity=".55">
+    <path d="M0 -168 V -40"/>
+    <path d="M-6 -40 Q 0 -18 6 -40" />
+    <path d="M0 -18 V 86"/>
+  </g>
+  <path fill="url(#iron)" d="M286 118 Q420 42 554 118 Q612 214 574 392 H266 Q228 214 286 118Z"/>
+  <path fill="url(#mouth)" d="M330 168 Q420 118 510 168 Q548 250 520 360 H320 Q292 250 330 168Z"/>
+  <ellipse cx="420" cy="214" rx="28" ry="22" fill="#0b0e14"/>
+  <circle cx="420" cy="214" r="9" fill="#8b9298" opacity=".35"/>
+  <path d="M266 392 H574 L560 418 H280 Z" fill="#2a3038"/>
+  <text x="420" y="478" text-anchor="middle" fill="#e8ecef" font-family="Georgia, serif" font-size="28" letter-spacing="8">NO GROUND BELOW</text>
+</svg>

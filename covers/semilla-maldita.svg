@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 525" role="img" aria-label="Semilla Maldita">
+  <defs>
+    <radialGradient id="pit" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#1a2414"/>
+      <stop offset="55%" stop-color="#0c120c"/>
+      <stop offset="100%" stop-color="#060806"/>
+    </radialGradient>
+    <radialGradient id="seed" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#c6e36a"/>
+      <stop offset="45%" stop-color="#5a9a32"/>
+      <stop offset="100%" stop-color="#1c3a14"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f6ff9a"/>
+      <stop offset="100%" stop-color="#7cff6b"/>
+    </radialGradient>
+  </defs>
+  <rect width="840" height="525" fill="url(#pit)"/>
+  <g fill="none" stroke="#3d5a28" stroke-width="2" opacity=".7">
+    <path d="M420 300 C 360 340, 280 390, 190 470"/>
+    <path d="M420 300 C 480 346, 560 400, 660 478"/>
+    <path d="M420 308 C 400 380, 390 430, 370 510"/>
+    <path d="M420 308 C 452 372, 490 430, 530 510"/>
+    <path d="M400 292 C 300 300, 220 340, 120 400"/>
+    <path d="M440 292 C 540 300, 640 348, 740 420"/>
+  </g>
+  <ellipse cx="420" cy="248" rx="92" ry="118" fill="url(#seed)"/>
+  <path d="M420 132 C 448 170, 452 210, 420 248 C 388 210, 392 170, 420 132Z" fill="#d7f08a" opacity=".35"/>
+  <path d="M418 140 L424 140 L430 300 L412 300 Z" fill="#0d160c"/>
+  <path d="M420 168 L426 248 L414 248 Z" fill="#7cff6b" opacity=".85"/>
+  <circle cx="420" cy="236" r="18" fill="#0b120a"/>
+  <circle cx="420" cy="236" r="8" fill="url(#eye)"/>
+  <circle cx="417" cy="233" r="2.4" fill="#f6ffd0"/>
+  <text x="420" y="470" text-anchor="middle" fill="#d7f08a" font-family="Georgia, serif" font-size="28" letter-spacing="6">SEMILLA MALDITA</text>
+</svg>
