@@ -36,9 +36,9 @@ window.CATALOG = {
     {
       id: "no-ground-below",
       title: "No Ground Below",
-      subtitle: "Demo 0.2 — física foddian",
+      subtitle: "Física foddian",
       blurb: "Estás atrapado dentro de una campana de hierro. Un ancla, una cadena. Subir es opcional. Caer es inevitable.",
-      status: "demo",
+      status: "jugable",
       year: 2026,
       tags: ["física", "escalada"],
       cover: "covers/no-ground-below.svg",
